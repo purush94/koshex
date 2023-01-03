@@ -1,0 +1,13 @@
+.sidepane {
+  height: 16px;
+  margin: 36px 100px 30px 25px;
+  font-family: SFProDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #121212;
+}

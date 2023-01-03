@@ -1,0 +1,29 @@
+.container {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.container__header {
+  height: 60px;
+  border-bottom: dashed;
+  border-color: #e5e6e9;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.container__header > span {
+  height: 17px;
+  margin: 25px 142px 14px 26px;
+  font-family: SFProDisplay;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #343756;
+}

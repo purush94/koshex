@@ -1,0 +1,62 @@
+.profileUpdater {
+  height: 200px;
+  flex-grow: 0;
+  margin: 0 25px 30px 0;
+  padding: 5px 0 0;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #f8fbff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileUpdater__left {
+  width: 94.1px;
+  height: 42px;
+  flex-grow: 0;
+  margin-top: 104px;
+}
+
+.profileUpdater__desc {
+  height: 16px;
+  flex-grow: 0;
+  margin: 64px 61px 19px 95.9px;
+  font-family: SFProDisplay;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #636f86;
+}
+
+.profileUpdater__button {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 32px 141px 19px 175.9px;
+  padding: 24px 60px;
+  border-radius: 7px;
+  background-color: #e8eeff;
+  color: #839eff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-family: SFProDisplay;
+}
+
+.profileUpdater__right {
+  margin-top: 5px;
+}

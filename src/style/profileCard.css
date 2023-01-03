@@ -1,0 +1,74 @@
+.profilecard {
+  width: 230px;
+  height: 186px;
+  margin: 0 0 44px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fefeff;
+  padding-bottom: 15px;
+}
+
+.profilecard__header {
+  height: 60px;
+  border-bottom: dashed;
+  stroke-width: 2;
+  border-color: #e5e6e9;
+  background-color: #f8fbff;
+  display: flex;
+  align-items: center;
+  font-family: "SFProDisplay";
+  font-weight: 600;
+  padding: 0 0 0 5px;
+}
+
+.profilecard__header > span {
+  margin-top: 25px;
+  margin-left: 17px;
+}
+
+.profilecard__details {
+  margin-top: 20px;
+}
+
+.profilecard__detail {
+  display: flex;
+}
+
+.profilecard__detail > img {
+  margin: 0px 10px 5px 20px;
+  padding: 8px;
+}
+
+.profilecard__info {
+  width: 133px;
+  height: 16px;
+  margin: 10px 0 10px 0px;
+  font-family: SFProDisplay;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #636f86;
+}
+
+.profilecard__icon {
+  margin: 0px 5px 1px 20px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #e8eeff;
+  color: #557aff;
+}
+
+.profilecard__initials {
+  display: flex;
+}
+
+.profilecard__name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+  margin: 10px 0 0 0;
+}

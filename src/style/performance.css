@@ -1,0 +1,21 @@
+.performance__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin: 45px 209px 46px 200px;
+
+  border-radius: 7px;
+  background-color: #f4f7ff;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #557aff;
+}

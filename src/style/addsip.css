@@ -1,0 +1,39 @@
+.addsip {
+  width: 459px;
+  height: 140px;
+  /* margin: 20px 2px 0;
+  padding: 23px 22px 22px 94px; */
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.06);
+  border: solid 1px #e7eaf3;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addsip__button {
+  width: 270px;
+  height: 95px;
+  flex-grow: 0;
+  /* padding: 30px 58px 30px 99px; */
+  border-radius: 3px;
+  border: dashed 0.5px #557aff;
+  background-color: rgba(232, 238, 255, 0.6);
+  cursor: pointer;
+}
+
+.addsip__button > p {
+  width: 73px;
+  height: 16px;
+  flex-grow: 0;
+  margin: 3px 0 0;
+  font-family: SFProDisplay;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #577bff;
+}

@@ -1,0 +1,36 @@
+.marketingInfo {
+  flex-grow: 0;
+  margin: 30px 0 24.6px 1px;
+  padding: 29.5px 13px 41.4px 21px;
+  border-radius: 7px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+  /* background-color: #f7f9ff; */
+}
+
+.marketingInfo > p {
+  width: 196px;
+  height: 72px;
+  flex-grow: 0;
+  margin: 11.6px 0 17.1px;
+  font-family: SFProDisplay;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #121212;
+}
+
+.readMore {
+  flex-grow: 0;
+  font-family: SFProDisplay;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: 0.5px;
+  text-align: left;
+}

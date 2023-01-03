@@ -1,0 +1,11 @@
+.dropdown {
+  display: flex;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #f4f7ff;
+  border: none;
+  font-size: 11px;
+  text-align: center;
+  color: #636f86;
+}

@@ -1,0 +1,37 @@
+.header {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  height: 116px;
+  border-bottom: dashed;
+  border-color: #e5e6e9;
+  /* flex: 1; */
+}
+
+.header__left {
+  /* flex: 0.4; */
+  align-self: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #121212;
+}
+
+.header__right {
+  /* flex: 0.6; */
+  display: flex;
+  align-items: center;
+}
+
+.header__iconContainer {
+  flex-grow: 0;
+  margin: 25px 20px 19px 5px;
+  padding: 8px;
+  background-color: #e8eeff;
+  border-radius: 50%;
+}
