@@ -53,7 +53,7 @@ function DashboardCard() {
           </div>
         </div>
         <div className="dashboard__container " style={{ marginTop: "30px" }}>
-          <div className="shared__container dashboard__width">
+          <div className="shared__container">
             <Container title="Investor Details" submenu={<AddSip />} />
           </div>
           <div className="shared__story shared__width">

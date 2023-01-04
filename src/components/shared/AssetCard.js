@@ -51,7 +51,7 @@ function AssetCard({ title, icon, desc, comp, bgColor }) {
           </div>
         )}
         {!target && (
-          <div className="total">
+          <div className="total" style={{ marginRight: "5px" }}>
             <div className="total__top">
               <button className="total__button" onClick={handleSubmit}>
                 Submit

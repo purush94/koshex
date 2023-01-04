@@ -27,6 +27,8 @@
   border: solid 1px #e7eaf3;
   background-color: #fefeff;
   cursor: pointer;
+  z-index: 1;
+  position: relative;
 }
 
 .sidebar__vector {
@@ -40,9 +42,23 @@
   cursor: pointer;
 }
 
-.menu__detail:hover {
+.menu__detail:first-child {
+  font-weight: bold;
   border-right: 4px solid #557aff;
 }
+
+.menu__detail:first-child .icon__container {
+  background-color: #557aff;
+  color: #fff;
+}
+
+.menu__detail:first-child img {
+  filter: brightness(0) invert(1);
+}
+
+/* .menu__detail:hover {
+  border-right: 4px solid #557aff;
+} */
 
 .menu__detail:active {
   font-weight: bold;

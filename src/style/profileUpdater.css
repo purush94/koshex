@@ -17,10 +17,14 @@
   margin-top: 104px;
 }
 
+.profileUpdater__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .profileUpdater__desc {
-  height: 16px;
-  flex-grow: 0;
-  margin: 64px 61px 19px 95.9px;
   font-family: SFProDisplay;
   font-size: 18px;
   font-weight: normal;
